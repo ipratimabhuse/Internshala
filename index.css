@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body, html{
+    height: 100%;
+    margin: 0;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+a{
+    text-decoration: none;
+    background-color: transparent;
+    color: #808080;
+}
+.header{
+    align-items: center;
+    justify-content: space-between;
+    background-color: #000;
+    border-color: #080808;
+    min-height: 50px;
+    border: 1px solid transparent;
+}
+.inner-header{
+    width: 80%;
+    margin: auto;
+}
+
+.header-link{
+   float: right;
+   font-size: 14px;
+   height: 50px;
+   padding: 15px 15px;
+   font-size: 16px;
+   font-weight: bold;
+   text-decoration: none;
+}
+
+.header-link li{
+    display: inline;
+    padding: 0px 20px;
+    
+}
+
+.header-link li a{
+    transition: all 0.3s ease 0s;
+}
+    
+
+.logo{
+    cursor: pointer;
+    float: left;
+    padding: 15px;
+    height: 50px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #808080;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.content{
+    min-height: 600px;
+}
+
+.banner-image{
+    background-image: url(intro-bg_1.jpg);
+    background-color: #cccccc;
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.inner-banner-image{
+    padding: 10px;
+    width: 80%;
+    margin: auto;
+}
+
+
+.banner-content{
+    background-color: rgba(0,0,0,0.7);
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 6%;
+    padding-bottom: 6%;
+    margin-bottom: 12%;
+    max-width: 660px;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    overflow: hidden;
+
+}
+
+.button{
+    color: #fff;
+    background-color: #c9302c;
+    border-color: #ac2925;
+    box-shadow: inset 0 3px 5px rgba(0,0,0,0.125);
+    padding: 10px 16px;
+    font-size: 18px;
+    border-radius: 6px;
+}
+
+.container{
+    width: 90%;
+    margin: auto;
+    overflow: hidden;
+    padding-top: 20px;
+}
+
+.items{
+    width: 30%;
+    display: block;
+    padding: 4px;
+    margin: 10px;
+    line-height: 1.42857143;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    float: left;
+    margin-left: 1%;
+}
+
+.thumbnail{
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.caption{
+    color: #000;
+    padding: 0px 10px 10px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.footer p{
+    background-color: #000;
+    color: #fff;
+    font-size: 14px;
+    text-align: center;
+}
+
